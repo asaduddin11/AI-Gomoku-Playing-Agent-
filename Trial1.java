@@ -1,11 +1,11 @@
-z
+
 import java.awt.Color;
 import java.util.Arrays;
 
 /** This is my class, it traverses the board and finds the empty positions, and using minimax algorithm and alpha beta pruning tries to find the best position to deploy the stone.
  *	Author: Asaduddin Bilal Mohammed
  **/
- class Player1 extends GomokuPlayer
+ class Trial1 extends GomokuPlayer
  {
    public Move chooseMove(Color[][] board, Color me)
   {
@@ -65,7 +65,14 @@ import java.util.Arrays;
 
 public int[][] calculatePotential(Color[][] board, Color me){
 
-  
+  for(int i = 0; i < 8 ; i++){
+   for(int j = 0; j < 8 ; j++){
+    if(board[i][j] == me){
+      
+     
+  }
+    }
+
 
 }
 
